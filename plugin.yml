@@ -1,0 +1,8 @@
+name: UserStatus
+main: main.command
+author: Evangon
+version: Beta.1
+commands:
+ userstatus:
+  usage: /<command> [plyrname]
+  description: Retrives user status.
