@@ -79,13 +79,4 @@ public class command extends JavaPlugin {
 			}
 		} return false;
 	}
-
-	@Override
-	public void onDisable() {
-		Logger.getLogger("Minecraft").info("[UserStatus] Sucessfully disabled.");
-	}
-	@Override
-	public void onEnable() {
-		Logger.getLogger("Minecraft").info("[UserStatus] Sucessfully enabled!");
-	}
 }
